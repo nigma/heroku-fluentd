@@ -1,0 +1,1 @@
+web: bundle exec fluentd -c fluent.conf -i "<source>\ntype http\nport $PORT\n</source>" -vv
